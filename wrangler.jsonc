@@ -1,16 +1,4 @@
 {
   "name": "enchanting-web-creations",
-  "main": "dist/server/index.js",
-  "build": {
-    "command": "npm run build"
-  },
-  "env": {
-    "production": {
-      "routes": [
-        {
-          "pattern": "example.com/*"
-        }
-      ]
-    }
-  }
+  "main": "dist/server/index.js"
 }
